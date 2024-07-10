@@ -1,0 +1,493 @@
+html {
+    color: black;
+    font-size: 20px;
+    background-color: rgb(233, 14, 14);
+}
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+    
+}
+
+.navigation-item {
+    margin: var(--spacing-1);
+    position: relative;
+    left: 55%;
+    
+   
+}
+
+.navigation-item a{
+    color: white;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 1.5
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0 var(--spacing-3);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+}
+html, body {
+    height: 100%;
+    color: var(--font-color);
+}
+:root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+    --border-radius: 12px;
+    /*--font-color: #323232;*/
+    --font-color: white;
+}
+
+section {
+    padding: var(--spacing-3) 0;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.about-me-text-container {
+    margin-right: var(--spacing-3);
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.portrait {
+    position: relative;
+    top: 50px;
+    height: 3%;
+    width: 200px;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#logo {
+    margin: 0;
+    position: relative;
+    top: 1.2em;
+    left: 3%;
+}
+h2 {
+    font-family: "Proza Libre", sans-serif;
+    margin: 0;
+    margin-bottom: var(--spacing-2);
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.about-me-container {
+    display: flex;
+    background-color: rgb(18, 39, 18);
+    padding-top: 1.1em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    margin-top: 5%;
+}
+
+.project {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#projects {
+    background-color: rgb(18, 39, 18);
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    position: relative;
+    top: -1%;
+}
+
+nav {
+    background-color: black;
+    width:120%;
+    position: fixed;
+    z-index: 10;
+    left: 0%;
+    padding-bottom: 1em;
+}
+
+#skills {
+    background-color: rgb(18, 39, 18);
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    position: relative;
+    top: -1%;
+    height: 15%;
+}
+
+.skills-list {
+    display: flex;
+    list-style-type: none;
+    padding: 1em;
+    align-items: center;
+    margin: 0;
+    margin-left: 1%;
+    
+}
+
+.skill {
+  margin-right: 1em;
+  word-spacing: 1em;
+  font-size: 1.1em;
+}
+
+#skills-header {
+    position: relative;
+    left: 42%;
+    font-size: 1.7em;
+}
+
+#webdev {
+   margin-right: 5%;
+}
+
+#gamedev {
+position: relative;
+left: 10%;
+/* word-spacing: 3em; */
+
+}
+
+ #ThirdRow {
+    position: relative;
+    left: 10%;
+    /* word-spacing: 3em; */
+    /* margin-top: 10%; */
+} 
+
+.contact-info {
+   margin-top: 25%;  
+}
+
+#contact-text {
+    padding: 10px;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 25px;
+    width: 33.7%;
+    color: white;
+}
+
+#contact-text2 {
+    padding: 10px;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 25px;
+    width: 29.7%;
+    color: white;
+    position: relative;
+    left: 60%;
+    margin-top: 10%;
+}
+
+.icon {
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0%;
+    
+}
+
+.linkedin-icon {
+    content: url(images/linkedin\ icon\ black.png);
+    background-color: white;
+    border: 0;
+    border-radius: 30%;
+    height: 3%;
+    margin-right: 5%;
+
+
+}
+
+.github-icon {
+    content: url(images/github\ icon\ black.png);
+    background-color: white;
+    border: 0;
+    border-radius: 30%;
+    height: 3%;
+    margin-right: 5%;
+}
+
+.email-icon { 
+    content: url(images/email\ icon.png);
+    background-color: white;
+    border-radius: 20%;
+    height: 3%;
+}
+
+
+canvas {
+    /* text-align: center; */
+   border: 30px solid white;
+   position: relative;
+   bottom: 100%;
+}
+#board {
+    margin-left: 26%;
+    /* margin-top: 25%; */
+    ;
+    background-image: url("images/Goku-Black-BG.jpg");
+    background-size: 360px 576px;
+    size: 360px 576px;
+    
+    
+}
+
+
+/* Media queries to make site responsive*/
+
+@media screen {
+    @media (min-width: 681px) and (max-width: 1024px) {
+        html {
+            font-size: .8em;
+            background-color: rgb(18, 39, 18) ;
+            
+        }
+         #logo {
+            font-size: 1.2em;
+        }
+        .navigation-item {
+            left: 40%;
+        }
+        .about-me-container {
+            margin-bottom: 3%;
+            
+        }
+        p{
+            text-align: left;
+            
+        }
+
+        .portrait {
+            height: 1%;
+            width: 130px;
+        }
+        .skills-list {
+            justify-content: center;
+        }
+    
+        #skills {
+            top: -4%;
+            height: 23.2%;
+            font-size: 1.1em;
+        }
+        #gamedev {
+            left: 0%;
+        }
+        #ThirdRow {
+            left: 0%;
+        }
+
+        /*contact page*/
+
+        .contact-info {
+            margin-top: 25%;  
+         }
+         
+         #contact-text {
+             padding: 10px;
+             border: 5px solid black;
+             background-color: black;
+             border-radius: 25px;
+             width: 33.7%;
+             color: white;
+         }
+         
+         #contact-text2 {
+             padding: 10px;
+             border: 5px solid black;
+             background-color: black;
+             border-radius: 25px;
+             width: 29.7%;
+             color: white;
+             position: relative;
+             left: 60%;
+             margin-top: 10%;
+         }
+         
+         .icon {
+             align-items: center;
+             position: relative;
+             left: 7%;
+             top: 10%;
+             margin-top: 10%;
+             
+             
+         }
+         
+         .linkedin-icon {
+             content: url(images/linkedin\ icon\ black.png);
+             background-color: white;
+             border: 0;
+             border-radius: 30%;
+             height: 3%;
+             margin-right: 3%;
+         
+         
+         }
+         
+         .github-icon {
+             content: url(images/github\ icon\ black.png);
+             background-color: white;
+             border: 0;
+             border-radius: 30%;
+             height: 3%;
+             margin-right: 3%;
+         }
+         
+         .email-icon { 
+             content: url(images/email\ icon.png);
+             background-color: white;
+             border-radius: 20%;
+             height: 3%;
+         }
+         
+         
+         
+    }
+    @media (min-width: 481px) and (max-width: 680px) {
+        html {
+            font-size: .8em;
+            background-color: rgb(18, 39, 18) ;
+            
+        }
+
+       
+         #logo {
+            font-size: 1.2em;
+        }
+        .navigation-item {
+            left: 40%;
+        }
+        .about-me-container {
+            margin-bottom: 3%;
+            
+        }
+        p{
+            text-align: left;
+            
+        }
+
+        .portrait {
+            height: 1%;
+            width: 130px;
+        }
+        .skills-list {
+            justify-content: center;
+        }
+
+        #skills {
+            top: -4%;
+            height:0%;
+            font-size: .7em;
+            justify-content: center;
+        }
+
+        /* #webdev {
+            margin: 10%
+        }
+        #middle {
+            margin-top: 50%;
+        } */
+        #gamedev {
+            left: 0%;
+        }
+        #ThirdRow {
+            left: 0%;
+        } 
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+        html {
+            font-size: .6em;  
+            background-color: rgb(18, 39, 18) ;
+        }
+
+        .portrait {
+            display: hidden;
+            width: 0%;
+        }
+
+         #logo {
+            font-size: 1.2em;
+        }
+        .navigation-item {
+            left: 40%;
+        }
+        .about-me-container {
+            margin-bottom: 3%;
+            
+        }
+        p{
+            text-align: left;
+            
+        }
+
+        .portrait {
+            height: 1%;
+            width: 130px;
+        }
+        .skills-list {
+            justify-content: center;
+        }
+
+        #skills {
+            top: -4%;
+            height:0%;
+            font-size: .7em;
+            justify-content: center;
+        }
+
+        /* #webdev {
+            margin: 10%
+        }
+        #middle {
+            margin-top: 50%;
+        } */
+        #gamedev {
+            left: 0%;
+        }
+        #ThirdRow {
+            left: 0%;
+        } 
+    }
+}
