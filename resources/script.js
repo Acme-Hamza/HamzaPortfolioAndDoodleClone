@@ -70,7 +70,7 @@ window.onload = function () {
 
     //load images
     gbDefaultRightImg = new Image();
-    gbDefaultRightImg.src = '/resources/images/GBdefaultRight.png'; // Correct path to spritesheet
+    gbDefaultRightImg.src = 'resources/images/GBdefaultRight.png'; // Correct path to spritesheet
     gbDefaultRightImg.onload = function () {
         console.log('Image loaded successfully');
         GokuBlack.img = gbDefaultRightImg;
@@ -81,49 +81,49 @@ window.onload = function () {
     };
 
     gbDefaultLeftImg = new Image();
-    gbDefaultLeftImg.src = '/resources/images/GBdefaultLeft.png';
+    gbDefaultLeftImg.src = 'resources/images/GBdefaultLeft.png';
 
     gbFromWallLeftImg = new Image();
-    gbFromWallLeftImg.src = '/resources/images/GBfromWallLeft.png';
+    gbFromWallLeftImg.src = 'resources/images/GBfromWallLeft.png';
 
     gbFromWallRightImg = new Image();
-    gbFromWallRightImg.src = '/resources/images/GBfromWallRight.png';
+    gbFromWallRightImg.src = 'resources/images/GBfromWallRight.png';
 
     gbRoseFromWallLeftImg = new Image();
-    gbRoseFromWallLeftImg.src = '/resources/images/GBroseFromWallLeft.png';
+    gbRoseFromWallLeftImg.src = 'resources/images/GBroseFromWallLeft.png';
 
     gbRoseFromWallRightImg = new Image();
-    gbRoseFromWallRightImg.src = '/resources/images/GBroseFromWallRight.png';
+    gbRoseFromWallRightImg.src = 'resources/images/GBroseFromWallRight.png';
 
     gbTransformFrame1LeftImg = new Image();
-    gbTransformFrame1LeftImg.src = '/resources/images/GBtransformFrame1Left.png';
+    gbTransformFrame1LeftImg.src = 'resources/images/GBtransformFrame1Left.png';
 
     gbTransformFrame2LeftImg = new Image();
-    gbTransformFrame2LeftImg.src = '/resources/images/GBtransformFrame2Left.png';
+    gbTransformFrame2LeftImg.src = 'resources/images/GBtransformFrame2Left.png';
 
     gbTransformFrame3LeftImg = new Image();
-    gbTransformFrame3LeftImg.src = '/resources/images/GBtransformFrame3Left.png';
+    gbTransformFrame3LeftImg.src = 'resources/images/GBtransformFrame3Left.png';
 
     gbTransformFrame4LeftImg = new Image();
-    gbTransformFrame4LeftImg.src = '/resources/images/GBtransformFrame4Left.png';
+    gbTransformFrame4LeftImg.src = 'resources/images/GBtransformFrame4Left.png';
 
     gbTransformFrame1RightImg = new Image();
-    gbTransformFrame1RightImg.src = '/resources/images/GBtransformFrame1Right.png';
+    gbTransformFrame1RightImg.src = 'resources/images/GBtransformFrame1Right.png';
 
     gbTransformFrame2RightImg = new Image();
-    gbTransformFrame2RightImg.src = '/resources/images/GBtransformFrame2Right.png';
+    gbTransformFrame2RightImg.src = 'resources/images/GBtransformFrame2Right.png';
 
     gbTransformFrame3RightImg = new Image();
-    gbTransformFrame3RightImg.src = '/resources/images/GBtransformFrame3Right.png';
+    gbTransformFrame3RightImg.src = 'resources/images/GBtransformFrame3Right.png';
 
     gbTransformFrame4RightImg = new Image();
-    gbTransformFrame4RightImg.src = '/resources/images/GBtransformFrame4Right.png';
+    gbTransformFrame4RightImg.src = 'resources/images/GBtransformFrame4Right.png';
 
     gbRoseEndPoseImg = new Image();
-    gbRoseEndPoseImg.src = '/resources/images/GBroseEndPose.png';
+    gbRoseEndPoseImg.src = 'resources/images/GBroseEndPose.png';
 
     platformImg = new Image();
-    platformImg.src = '/resources/images/platformRed.png';
+    platformImg.src = 'resources/images/platformRed.png';
 
     velocityY = initalVelocityY;
     placePlatforms();
