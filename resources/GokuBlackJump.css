@@ -38,7 +38,7 @@ body {
     color: white;
 }
 html, body {
-    height: 100%;
+    /* height: 100%; */
     color: var(--font-color);
 }
 :root {
@@ -110,10 +110,12 @@ nav {
  }
  
  .icon {
-     align-items: center;
-     margin-left: 30%;
-     margin-right: 30%;
-     margin-top: 0%;
+     display: flex; 
+     margin-left: 3%;
+     margin-right: 3%;
+     margin-top: 20%;
+     position: relative;
+     
      
  }
  
@@ -122,8 +124,10 @@ nav {
      background-color: white;
      border: 0;
      border-radius: 30%;
-     height: 3%;
-     margin-right: 5%;
+     height: 10%;
+     margin-right: 0%;
+     position: relative;
+     left: 50%;
  
  
  }
@@ -133,22 +137,26 @@ nav {
      background-color: white;
      border: 0;
      border-radius: 30%;
-     height: 3%;
-     margin-right: 5%;
+     height: 10%;
+     margin-right: 0%;
+     position: relative;
+     right: 35%;
  }
  
  .email-icon { 
      content: url(images/email\ icon.png);
      background-color: white;
      border-radius: 20%;
-     height: 3%;
+     height: 10%;
+     position: relative;
+     right: 120%;
  }
  
  .Game {
     color: white;
     font-size: 1.2em;
     position: relative;
-    margin-bottom: 10%;
+    margin-top: -40%;
     top: -93%;
     left: 15%;
     border: 10px solid black;
@@ -218,41 +226,48 @@ nav {
          }
          
          .icon {
-             align-items: center;
-             position: relative;
-             left: 7%;
-             top: 10%;
-             margin-top: 10%;
-             
-             
-         }
-         
-         .linkedin-icon {
-             content: url(images/linkedin\ icon\ black.png);
-             background-color: white;
-             border: 0;
-             border-radius: 30%;
-             height: 3%;
-             margin-right: 3%;
-         
-         
-         }
-         
-         .github-icon {
-             content: url(images/github\ icon\ black.png);
-             background-color: white;
-             border: 0;
-             border-radius: 30%;
-             height: 3%;
-             margin-right: 3%;
-         }
-         
-         .email-icon { 
-             content: url(images/email\ icon.png);
-             background-color: white;
-             border-radius: 20%;
-             height: 3%;
-         }
+            display: flex; 
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 20%;
+            position: relative;
+            
+            
+        }
+        
+        .linkedin-icon {
+            content: url(images/linkedin\ icon\ black.png);
+            background-color: white;
+            border: 0;
+            border-radius: 30%;
+            height: 10%;
+            margin-right: 0%;
+            position: relative;
+            left: 50%;
+        
+        
+        }
+        
+        .github-icon {
+            content: url(images/github\ icon\ black.png);
+            background-color: white;
+            border: 0;
+            border-radius: 30%;
+            height: 10%;
+            margin-right: 0%;
+            position: relative;
+            right: 35%;
+        }
+        
+        .email-icon { 
+            content: url(images/email\ icon.png);
+            background-color: white;
+            border-radius: 20%;
+            height: 10%;
+            position: relative;
+            right: 120%;
+        }
+        
          
          canvas {
             border-width: 40px;
@@ -260,8 +275,15 @@ nav {
 
          .Game {
             border-style: hidden;
-            font-size: 1em;
-            top: -100%;
+            color: white;
+            font-size: 1.2em;
+            position: relative;
+            margin-top: -40%;
+            top: -93%;
+            left: 15%;
+            
+            width: 60%;
+            padding-left: 4%;
          }
          
          
@@ -285,17 +307,32 @@ nav {
         
         .Game {
             border-style: hidden;
-            font-size: .9em;
-            top: -98%;
+            color: white;
+            font-size: 1.2em;
+            position: relative;
+            margin-top: -75%;
+            top: -93%;
+            left: 15%;
+            width: 60%;
+            padding-left: 4%;
+        }
+        .icon {
+            display: flex; 
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 20%;
+            position: relative;
+            right: 20%;
+    
         }
         .github-icon {
-            height: 2%;
+            height: 7%;
         }
         .linkedin-icon {
-            height: 2%;
+            height: 7%;
         }
         .email-icon {
-            height: 2%;
+            height: 7%;
         }
     }
     @media (min-width: 320px) and (max-width: 480px) {
@@ -315,17 +352,23 @@ nav {
         
         .Game {
             border-style: hidden;
-            font-size: .8em;
-            top: -98%;
+            color: white;
+            font-size: 1.2em;
+            position: relative;
+            margin-top: -75%;
+            top: -93%;
+            left: 15%;
+            width: 60%;
+            padding-left: 4%;
         }
         .github-icon {
-            height: 2%;
+            height: 4%;
         }
         .linkedin-icon {
-            height: 2%;
+            height: 4%;
         }
         .email-icon {
-            height: 2%;
+            height: 4%;
         }
     }
 }
