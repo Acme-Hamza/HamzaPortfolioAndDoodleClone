@@ -1,7 +1,7 @@
 html {
     color: black;
     font-size: 20px;
-    background-color: rgb(233, 14, 14);
+    background-color: rgb(32, 32, 32);
 }
 .navigation-items {
     display: flex;
@@ -32,7 +32,12 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    line-height: 1.5
+    line-height: 1.5;
+    z-index: 100;
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(60, 255, 0);
 }
 
 body {
@@ -67,10 +72,18 @@ section {
 section {
     display: block;
     unicode-bidi: isolate;
+    
 }
 
 .about-me-text-container {
     margin-right: var(--spacing-3);
+    
+    color: rgb(60, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
+    
+    
+    
 }
 
 div {
@@ -85,6 +98,8 @@ div {
     width: 200px;
     border-radius: var(--border-radius);
     flex-shrink: 0;
+    border: 6px solid rgb(60, 255, 0);
+    background-color: black;
 }
 
 img {
@@ -102,6 +117,10 @@ h2 {
     font-family: "Proza Libre", sans-serif;
     margin: 0;
     margin-bottom: var(--spacing-2);
+    color: white;
+    padding-left: 5%;
+  
+    
 }
 
 h2 {
@@ -117,24 +136,38 @@ h2 {
 
 .about-me-container {
     display: flex;
-    background-color: rgb(18, 39, 18);
+    background-color: rgb(255, 251, 0);
     padding-top: 1.1em;
     padding-left: 1.1em;
     padding-right: 1.1em;
     margin-top: 5%;
+    z-index: 100;
+}
+
+.H2-headers {
+    color: rgb(60, 255, 0);
+    border: 1px solid black;
+    background-color: black;
 }
 
 .project {
     font-weight: bold;
     font-size: 1.2em;
+    position: relative;
+    border: 1px solid black;
+    width: 35%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 #projects {
-    background-color: rgb(18, 39, 18);
+    background-color: rgb(255, 251, 0);
     padding-left: 1.1em;
     padding-right: 1.1em;
     position: relative;
     top: -1%;
+    z-index: 100;
 }
 
 nav {
@@ -147,7 +180,7 @@ nav {
 }
 
 #skills {
-    background-color: rgb(18, 39, 18);
+    background-color: rgb(255, 251, 0);
     padding-left: 1.1em;
     padding-right: 1.1em;
     position: relative;
@@ -161,20 +194,30 @@ nav {
     padding: 1em;
     align-items: center;
     margin: 0;
-    margin-left: 1%;
-    
+    margin-left: 1%; 
+}
+
+.skills-text-container {
+  
 }
 
 .skill {
   margin-right: 1em;
   word-spacing: 1em;
   font-size: 1.1em;
+  color: rgb(60, 255, 0);
+  border: 1px solid ;
+  background-color: black;
 }
 
 #skills-header {
     position: relative;
-    left: 42%;
+    left: 36%;
     font-size: 1.7em;
+    border: 1px solid black;
+    border-radius:25px;
+    width: 15%;
+    background-color: black;
 }
 
 #webdev {
